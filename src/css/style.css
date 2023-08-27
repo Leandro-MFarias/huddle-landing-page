@@ -1,0 +1,95 @@
+html {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "logo logo logo"
+    "main main main"
+    "social social social";
+    height: 100vh;
+    background: url(../images/bg-desktop.svg)no-repeat;
+    background-size: contain;
+}
+
+.logo {
+    grid-area: logo;
+    margin: 40px;
+    font-weight: 600;
+}
+
+.painel {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.painel .image {
+    justify-self: flex-end;
+    width: 75%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+.info .title {
+    margin-bottom: 25px;
+    font-size: 40px;
+    max-width: 500px;
+}
+
+.info .description {
+    margin-bottom: 25px;
+    max-width: 560px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.info .btn {
+    padding: 18px;
+    border-radius: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--background-color);
+    transition: 0.3s;
+    max-width: 210px;
+}
+
+.info .btn:hover {
+    color: #fff;
+    background-color: var(--hover);
+}
+
+.social {
+    grid-area: social;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.social a {
+    color: #fff;
+    margin: 8px;
+    padding: 5px 10px;
+    font-size: 18px;
+    border: solid 1px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.social .f {
+    padding: 5px 12px;
+}
+
+.social a:hover {
+    color: var(--hover);
+}
