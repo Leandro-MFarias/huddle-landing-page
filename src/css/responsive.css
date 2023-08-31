@@ -4,7 +4,12 @@
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1024px) {   
+    .painel .image {
+        justify-self: flex-start;
+        margin-left: 20px;
+    }
+    
     .info {
         margin-left: 10px;
     }
@@ -19,6 +24,11 @@
 }
 
 @media (max-width: 768px) {
+    main {
+        background: url(../images/bg-mobile.svg)no-repeat;
+        background-size: contain;
+    }
+
     .logo {
         margin: 20px;
     }
@@ -28,6 +38,14 @@
         text-align: center;
     }
 
+    .painel .image {
+        justify-self: center;
+    }
+
+    .info .title {
+        align-self: center;
+    }
+
     .info {
         justify-self: center;
         margin: 0;
@@ -35,7 +53,7 @@
 
     .info .btn {
         align-self: center;
-        padding: 18px 50px;
+        padding: 18px 70px;
     }
 
     .social {

@@ -31,4 +31,3 @@ Tive um problema com o tamanho do botão, o padding dele eu não conseguia deixa
 Ter visualizado antes e depois começar a fazer me ajudou bastante, comecei primeiro escrevendo o html sem pensar me travou bastante, mas quando voltei e pensei como iria fazer pra depois começar a programar foi muito mais rapido.
 
 Consegui visualizar melhor como funciona o grid e o flexbox e acredito ter chegado em uma solução boa para o desafio.
-
